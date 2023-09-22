@@ -9,7 +9,7 @@ h4{
 
 body{
     padding-bottom: 500px;
-    background-image: url(../img/city.jpg);
+    background-image: 
 }
 
 .marcelo{
@@ -27,7 +27,7 @@ body{
 /* 10 */
 
 h2 {
-    border-bottom: 2px solid rebeccapurple;
+    border-bottom: 2px solid rgb(51, 153, 136);
 }
 /* 11 */
 
@@ -241,3 +241,278 @@ background-color: #4e7aa1;
 margin: 5px 10px 15px 20px ;
 background-color: #16a079;
 }
+
+/* 31 box model */
+
+.boxmodel{
+    margin: 20px;
+    background-color: #00eaff;
+    padding: 15px 25px 15px 25px;
+    border: 3px solid rgb(23, 74, 102);
+    border-radius: 7px;
+    width: 200px;
+    height: 400px;
+}
+
+/* 32 DESAFIO HARDCORE MERMÃO */
+
+#modelbox-desafio{
+    margin: 20px;
+    background-color: #346d72;
+    padding: 15px 25px 15px 25px;
+    border: 3px solid rgb(46, 57, 62);
+    border-radius: 7px;
+    width: 200px;
+    height: 400px;
+    outline: 5px solid cadetblue;
+}
+ 
+.txtdesafio{
+  color: #40cfa9;
+  /* border: none;*/ 
+}
+
+.txtdesfio2{
+    color: #16a079;
+}
+
+
+/* 33 Alinhando as coisas*/
+.text-aligned{
+       text-align: right;
+}
+
+.container-center{
+       text-align: center;
+       background-color: #346d72;
+       width: 300px;
+       border: 4px solid cadetblue;
+       margin: 135px;
+}
+
+/* 34  */
+
+.underline{
+ text-decoration: underline;
+}
+
+    .line-trough{
+text-decoration: line-through;
+    }
+
+.remover-underline{
+text-decoration: none;
+color: #4e7aa1;
+}
+
+/* 35 UPPER e lower */
+
+
+.upper{
+    text-transform: uppercase;
+}
+
+.lower{
+    text-transform: lowercase;
+}
+
+/* 36 Espaçamento de texto*/
+
+.spacing{
+    letter-spacing: 7px;
+}
+
+/* 37  fontes*/
+
+.serif{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sans-serfi{
+font-family: Arial, Helvetica, sans-serif 
+}
+
+.monospace{
+
+font-family: 'Courier New', Courier, monospace;}
+.cursive{
+font-family:cursive;
+}
+.fantasy{
+    font-family: fantasy;
+
+}
+/* 38 */
+.italic{
+font-style: italic ;
+}
+
+.oblique{
+font-style: oblique;
+}
+
+/* 39 */
+.without-padding{
+font-weight: 100;
+}
+
+.bold{
+font-weight: 700;
+}
+
+.bolder{
+font-weight: 900;
+}
+
+/* 40 */
+
+.small{
+font-size: 7px;
+}
+
+.big{
+font-size: 70px;
+}
+
+/* 41 */
+
+.inline-box{
+    width: 50px;
+    height: 50px;
+    background-color: #346d72;
+    margin: 10px;
+    display: inline-block;
+}
+ .block{
+    background-color: #16a079;
+    margin: 10px;
+    display: block;
+ }
+
+/* 42 */
+
+.invisible{
+    display: none;
+}
+
+/* 43 */
+
+.static{
+    position: static;
+    width: 50px;
+    height: 50px;
+    background-color: #346d72;
+    margin: 10px;
+}
+
+/* 44 */
+.relative{
+    position: relative;
+    background-color: #323d46;
+    color: #24c0bb;
+
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+}
+
+/* 45 */
+
+.absolute{
+    position: absolute;
+    background-color: #323d46;
+    color: azure;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right:2px;
+}
+
+/* 46 */
+.relative-container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid darkcyan;
+    margin-top: 120px;
+    position: relative;
+}
+ .absolute-1,
+.absolute-2{
+  width: 50px;
+  height: 50px;
+  background-color: #346d72;
+  position: absolute;
+}
+
+.absolute-1{
+    top:10px;
+    left: 10px;
+}
+
+/* 47 */
+
+.fixed{
+    width: 100px;
+    height: 100px;
+    background-color: #346d72;
+    border: 1px solid darkcyan;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    
+}
+
+/* 48 */
+
+.sticky{
+    width: 100px;
+    height: 100px;
+    background-color: #346d72;
+    border: 1px solid darkcyan;
+    position: sticky;
+    top:10px;
+}
+/* 48+1 */
+.absolute-3,
+.absolute-4,
+.absolute-5{
+    width: 100px;
+    height: 100px;
+    background-color: #346d72;
+    position: absolute;
+    
+}
+
+.absolute-3{
+    top: 0;
+    left: 0;
+    z-index: ;
+}
+
+.absolute-4{
+    top: 10px;
+    left: 10px;
+    background-color: #4e7aa1;
+    z-index: ;
+}
+ .absolute-5{
+    top: 40px;
+    left: 40px;
+    background-color: #24c0bb;
+    z-index: 3;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
