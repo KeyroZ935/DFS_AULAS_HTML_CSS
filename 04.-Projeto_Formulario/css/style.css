@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    color: cadetblue;
+}
+
+p,
+label{
+    color: darkcyan;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+textarea{
+    width: 400px;
+}
+ textarea{
+    padding: 10px 5px;
+ }
