@@ -1,0 +1,33 @@
+h1{
+    color: rgb(207, 37, 24);
+}
+
+@media screen and (max-width: 500px) { h1 {
+    color: blue;
+}
+}
+
+/* 3 */
+p{
+    background-color: rgb(153, 153, 153);
+    color: crimson;
+}
+
+@media screen and (min-width: 800px) {
+    p{
+        background-color: crimson;
+        color: black;
+    }
+}
+
+h3{
+    display: none;
+}
+
+@media screen and (orientation: landscape)
+{
+h3{
+    display: block;
+}
+
+}
